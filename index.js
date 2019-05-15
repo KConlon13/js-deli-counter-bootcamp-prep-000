@@ -7,10 +7,11 @@ function takeANumber (katzDeli, name) {
 }
 
 function nowServing (katzDeli) {
-  //while (katzDeli.length>0) {
-    // i++;
+  while (katzDeli.length>0) {
+    i++;
   }
   if (katzDeli.length === 0) {
     return "There is nobody waiting to be served!"
-  } return 
+  } else {
+    return `Now serving ${katzDeli}.`;
 }
