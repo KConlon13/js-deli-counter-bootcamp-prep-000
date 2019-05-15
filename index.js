@@ -7,6 +7,7 @@ function takeANumber (katzDeli, name) {
 }
 
 function nowServing (katzDeli) {
+  var i=0;
   while (katzDeli.length>0) {
     i++;
   }
